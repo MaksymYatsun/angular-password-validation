@@ -1,4 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+.closed-eye {
+  background-image: url(assets/eye-password-hide-svgrepo-com.svg);
+  background-position: center center;
+  background-size: 72%;
+  background-repeat: no-repeat;
+}
+
+.opened-eye {
+  background-image: url(assets/view-eye-svgrepo-com.svg);
+  background-position: center center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
